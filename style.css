@@ -10,11 +10,12 @@ body{
     min-height: 100vh;  
     display: flex;
     justify-content: center;
-    background: top url(./images/bg-pattern-top.svg);
-    background: bottom url(./images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     font-family: 'Kumbh Sans';
     background-color: hsl(185, 75%, 39%);
-    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 49vw bottom 45vh, left 49vw top 50vh;
+    
 
 }
 
