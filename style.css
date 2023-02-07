@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;
+    background: top url(./images/bg-pattern-top.svg);
+    background: bottom url(./images/bg-pattern-bottom.svg);
+    font-family: 'Kumbh Sans';
+    background-color: hsl(185, 75%, 39%);
+    background-position: right top, left bottom;
+
+}
+
+.main{
+    width: 400px;
+    margin: 100px 50px;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-img{
+    border-radius: 100%;
+    margin-top: 110px;
+    background-color: white;
+    padding: 5px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding-top: 20px;
+}
+
+.name-h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    font-style:normal;
+}
+
+.name-para{
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 35px;
+    color: hsl(227, 10%, 46%);
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.main-para{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 35px;
+    color: hsl(227, 10%, 46%);
+    padding-bottom: 20px;
+}
+
+hr{
+    border:  1px solid hsl(227, 10%, 46%);
+}
+
+.stat{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.info-h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    font-style:normal;
+}
+
+.info-para{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 35px;
+    color: hsl(227, 10%, 46%);
+}
+
+.foot, .foot a{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: hsl(31, 77%, 52%);
+    margin: 45px auto;
+    justify-content: center;
+}
+
+.foot a{
+    color: black;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        justify-content: start;
+    }
+}
